@@ -1,5 +1,42 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
+
+nav {
+  background: #eaf2ca;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: right;
+  list-style: none;
+}
+
+.hero {
+  background: violet;
+}
+
+.hero img {
+  width: 500px;
+}
+
+.obras {
+  background: orange;
+}
+
+.nosotros {
+  background: #eaf2ca;
+}
+
+.contacto {
+  background: red;
+}
+/*# sourceMappingURL=style.css.map */

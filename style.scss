@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background: #eaf2ca;
+  display: flex;
+  ul {
+    display: flex;
+    text-align: right;
+    list-style: none;
+  }
+}
+
+.hero {
+  background: violet;
+  img {
+    width: 500px;
+  }
+}
+
+.obras {
+  background: orange;
+}
+
+.nosotros {
+  background: #eaf2ca;
+}
+
+.contacto {
+  background: red;
+}
