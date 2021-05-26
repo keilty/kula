@@ -5,27 +5,38 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kula Cabañas Sustentables</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <nav>
-    <h1>Kula</h1>
-    <ul>
-      <li>Inicio</li>
-      <li>Obras</li> 
-      <li>Nosotros</li>
-    </ul>
-    <p>Contacto</p>
-  </nav>
-  <main>
-    <section class = "hero">
-     <p id = "hero-p">
-       Materiales naturales.<br>
-       Cabañas confortables.
-     </p>
-     <button class = "btn-primary">Ver las obras</button>
-     <img src="/img/cabin-hero.jpg" alt="cabaña de troncos en el bosque">
-    </section>
+
+  <header>
+    <nav>
+      <h1>Kula</h1>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#obras">Obras</a></li> 
+        <li><a href="#nosotros">Nosotros</a></li>
+        
+      </ul>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <main>
+
+      <section class = "hero">
+      <p id = "hero-p">
+        Materiales naturales.<br>
+        Cabañas confortables.
+      </p>
+      <button class = "btn-primary">Ver las obras</button>
+      <img src="/img/cabin-hero.jpg" alt="cabaña de troncos en el bosque">
+      </section>
+
+  </header>
+  
     <section class = "obras">
     <h2>Nuestras obras</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolo
@@ -33,6 +44,7 @@
       ipsa et.</p>
     <!-- Aquí van las cinco imagenes de cabañas con el carousel -->
   </section>
+
   <section class = "nosotros">
     <h2>Sobre Nosotros</h2>
     <p> Somos una empresa familiar con más de 20 años de experiencia en la construcción de cabañas de madera,<br>
@@ -40,7 +52,9 @@
         proviene de bosques reforestados, de esta manera aseguramos una construcción biosustentable que <br> 
         proteja nuestros bosques nativos.
     </p>
+    <img src="/img/cabin-landscape.jpg" alt="">
   </section>
+
   <section class = "contacto">
     <h2>Contactanos</h2>
     <form class = "formulario" action="" method="post">
@@ -55,8 +69,13 @@
     </form>
     <!-- A la derecha de este formulario se coloca la ubicacion con googlemaps API -->
   </section>
+
   <footer>&copy2021 Gabriel Keilty </footer>
+
   </main>
+
   <script src="main.js"></script>
+
 </body>
+
 </html>
