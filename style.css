@@ -114,6 +114,10 @@ p {
   background: #d0dca1;
 }
 
+.obras img {
+  width: 600px;
+}
+
 .nosotros {
   height: 100vh;
   background: #eaf2ca;
