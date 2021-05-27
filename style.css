@@ -30,10 +30,19 @@ p {
 }
 
 .btn-primary {
-  padding: 10px 20px;
-  color: black;
-  outline: none;
   background: #98a563;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+.btn-primary:hover {
+  background: #d0dca1;
 }
 
 .navbar {
@@ -67,6 +76,8 @@ p {
 
 .navbar a:hover {
   background: #bed37e;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .hero {
