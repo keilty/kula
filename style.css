@@ -57,7 +57,7 @@ p {
           justify-content: space-between;
   position: fixed;
   background: #eaf2ca;
-  height: 70px;
+  height: 55px;
   width: 100%;
   top: 0px;
   padding: 0 30px;
@@ -70,7 +70,7 @@ p {
 }
 
 .navbar a {
-  padding: 25px 20px;
+  padding: 18px 20px;
   margin: 0 5px;
 }
 
@@ -78,6 +78,10 @@ p {
   background: #bed37e;
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
+}
+
+.navbar .contact-link {
+  padding: 16px 20px;
 }
 
 .hero {
@@ -114,8 +118,23 @@ p {
   background: #d0dca1;
 }
 
-.obras img {
-  width: 600px;
+.obras h2 {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.obras .carousel-container {
+  width: 60%;
+  margin: auto;
+}
+
+.obras .carousel-container .carousel-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
 }
 
 .nosotros {
