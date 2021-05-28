@@ -25,10 +25,6 @@ h2 {
   line-height: 1.2;
 }
 
-p {
-  margin: 10px 0;
-}
-
 // Btn Styles
 .btn-primary {
   background: #98a563;
@@ -151,10 +147,20 @@ p {
 .nosotros {
   height: 100vh;
   background: #eaf2ca;
-  align-items: center;
 
-  img {
-    width: 800px;
+  .nosotros-content {
+    width: 60%;
+    margin: auto;
+
+    h2 {
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    img {
+      padding-top: 20px;
+      width: 100%;
+    }
   }
 }
 
