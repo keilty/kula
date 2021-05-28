@@ -126,6 +126,29 @@ p {
 .obras .carousel-container {
   width: 60%;
   margin: auto;
+  border: 5px solid;
+  overflow: hidden;
+  position: relative;
+}
+
+.obras .carousel-container #prev-btn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 5%;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.obras .carousel-container #next-btn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
 }
 
 .obras .carousel-container .carousel-slide {

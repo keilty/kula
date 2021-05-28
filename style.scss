@@ -76,13 +76,15 @@ p {
 .hero {
   height: 100vh;
   background: #f3f3f3;
+
   .content {
     display: flex;
     align-items: center;
-    // justify-content: center;
     height: 100%;
+
     .left-content {
       padding: 0 10vw 0 20vw;
+
       h1 {
         letter-spacing: 3px;
         line-height: 1.2;
@@ -99,13 +101,39 @@ p {
 .obras {
   height: 100vh;
   background: #d0dca1;
+
   h2 {
     text-align: center;
     padding: 30px 0;
   }
+
   .carousel-container {
     width: 60%;
     margin: auto;
+    border: 5px solid;
+    overflow: hidden;
+    position: relative;
+
+    #prev-btn {
+      position: absolute;
+      top: 50%;
+      z-index: 10;
+      left: 5%;
+      font-size: 30px;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    #next-btn {
+      position: absolute;
+      top: 50%;
+      z-index: 10;
+      right: 5%;
+      font-size: 30px;
+      color: #fff;
+      cursor: pointer;
+    }
+
     .carousel-slide {
       display: flex;
       width: 100%;
@@ -117,6 +145,7 @@ p {
 .nosotros {
   height: 100vh;
   background: #eaf2ca;
+
   img {
     width: 800px;
   }
