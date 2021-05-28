@@ -1,3 +1,4 @@
+// Basic Styles
 * {
   margin: 0;
   padding: 0;
@@ -28,6 +29,7 @@ p {
   margin: 10px 0;
 }
 
+// Btn Styles
 .btn-primary {
   background: #98a563;
   color: black;
@@ -43,6 +45,7 @@ p {
   background: #d0dca1;
 }
 
+// Navbar
 .navbar {
   display: flex;
   align-items: center;
@@ -73,6 +76,7 @@ p {
   }
 }
 
+// Hero
 .hero {
   height: 100vh;
   background: #f3f3f3;
@@ -98,6 +102,7 @@ p {
   }
 }
 
+// Obras
 .obras {
   height: 100vh;
   background: #d0dca1;
@@ -142,15 +147,18 @@ p {
   }
 }
 
+// Nosotros
 .nosotros {
   height: 100vh;
   background: #eaf2ca;
+  align-items: center;
 
   img {
     width: 800px;
   }
 }
 
+// Contact
 .contacto {
   height: 100vh;
   background: #f3f3f3;

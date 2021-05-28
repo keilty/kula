@@ -162,6 +162,9 @@ p {
 .nosotros {
   height: 100vh;
   background: #eaf2ca;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .nosotros img {
