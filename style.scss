@@ -165,15 +165,25 @@ h2 {
 }
 
 // Contact
-.contacto {
-  display: flex;
-}
-.contacto {
+
+.contact {
   height: 100vh;
   background: #f3f3f3;
+  display: flex;
+  width: 100%;
+
   .contact-form {
-    
+    width: 50%;
+    padding: 11%;
+    h2 {
+      padding-bottom: 10px;
+    }
   }
+
   .map-container {
-    
+    width: 50%;
+    #mapid {
+      width: 100%;
+    }
+  }
 }
