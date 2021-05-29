@@ -166,6 +166,14 @@ h2 {
 
 // Contact
 .contacto {
+  display: flex;
+}
+.contacto {
   height: 100vh;
   background: #f3f3f3;
+  .contact-form {
+    
+  }
+  .map-container {
+    
 }
